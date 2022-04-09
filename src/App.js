@@ -1,6 +1,4 @@
 import { useState, useEffect, useCallback, useRef } from "react";
-import useInterval from "./hooks/useInterval";
-import Canvas from "./components/Canvas";
 
 function generateEmptyGrid() {
   const rows = [];
